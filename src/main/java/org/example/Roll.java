@@ -32,7 +32,7 @@ public class Roll {
                 result[dice] = random.nextInt(sides) + 1;
             }
             System.out.println(Arrays.toString(result));
-            JOptionPane.showMessageDialog(null, "Roll no. " + (roll + 1) + ": " + Arrays.toString(result));
+            JOptionPane.showMessageDialog(null, howManyRolls + " Rolls\n" + "Roll no. " + (roll + 1) + ":  " + Arrays.toString(result));
         }
     }
 
